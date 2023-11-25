@@ -1,0 +1,28 @@
+body {
+  background: #fff;
+  font-family: Roboto, Raleway, sans-serif;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.links > li :hover {
+  color: red;
+}
+
+.links > li :focus {
+  color: red;
+}
+
+.contacts-mail:hover {
+  color: red;
+}
+
+.contacts-tel:hover {
+  color: red;
+}
+
+.buton {
+  cursor: pointer;
+}
