@@ -1,29 +1,106 @@
+:root {
+  --logo-blue-color: #4d5ae5;
+  --hero-color-navy: #2e2f42;
+  --hero-font: robote, sans-serif;
+  --content-color: #434455;
+}
+
 body {
-  background: #fff;
-  font-family: Roboto, Raleway, sans-serif;
-  color: #2e2f42;
-  font-size: 16px;
-  line-height: 24px;
+  font-family: var(--hero-font);
+}
+
+.logo {
+  font-family: raleway, sans-serif;
+  font-weight: 800px;
+  font-size: 18 px;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+  color: var(--logo-blue-color);
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+}
+
+.link-studio {
+  color: var(--hero-color-navy) cursor: pointer;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.links > li :hover {
-  color: red;
+.link-portfolio {
+  color: var(--hero-color-navy) cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.links > li :focus {
-  color: red;
+.link-contacts {
+  color: var(--hero-color-navy) cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.contacts-mail:hover {
-  color: red;
+.link-studio:hover {
+  color: #404bbf
 }
 
-.contacts-tel:hover {
-  color: red;
+.link-portfolio:hover {
+  color: #404bbf
+}
+
+.link-contacts:hover {
+  color: #404bbf
+}
+
+.logo-studio {
+  color: var(--hero-color-navy)
 }
 
 .buton {
   cursor: pointer;
 }
 
+.adress-section {
+  font-style: normal;
+}
+
+.contacts-mail {
+  color: var(--content-color) font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.02em
+}
+
+.contacts-tel {
+  color: var(--content-color) font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.02em
+}
+
+.contacts-mail:hover {
+  color: #404bbf
+}
+
+.contacts-mail:focus {
+  color: #404bbf
+}
+
+.contacts-tel:hover {
+  color: #404bbf
+}
+
+.contacts-tel:focus {
+  color: #404bbf
+}
