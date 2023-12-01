@@ -1,139 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio</title>
-    <link href="./css/styles.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <!--Top line-->
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html" target="_blank">Portfolio</a></li>
-          <li><a href="./index.html">Contacts</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
-    </header>
-    <main>
-      <!--Title section-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
-      </section>
-      <!--Description section-->
-      <section>
-        <h2>not visible</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <!--What we do section-->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
-            <img
-              src="./pictures/img1.jpg"
-              width="360"
-              alt="Work on PC"
-              href="./index.html"
-            />
-          </li>
-          <li>
-            <img src="./pictures/img2.jpg" width="360" alt="Work on laptop" />
-          </li>
-          <li>
-            <img src="./pictures/img3.jpg" width="360" alt="Work on tablet" />
-          </li>
-        </ul>
-      </section>
-      <!--Our Team section-->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img
-              src="./pictures/Mark-Guerrero.jpg"
-              width="264"
-              alt="Product Designer"
-            />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./pictures/Tom-Ford.jpg"
-              width="264"
-              alt="Frontend Developer"
-            />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./pictures/Camila-Garcia.jpg"
-              width="264"
-              alt="Marketing"
-            />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./pictures/Daniel-Wilson.jpg"
-              width="264"
-              alt="UI Designer"
-            />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <!--Footer Section-->
-      <a href="./index.html">WebStudio</a>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio</title>
+  <link href="./css/styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="link" href="./index.html" class="web">Web<span class="logo-studio">Studio</span></a>
+
+      <ul class="list">
+        <li>
+          <a class="link link-studio" href="./index.html" target="_blank">Studio</a>
+        </li>
+        <li>
+          <a class="link link-portfolio" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li>
+          <a class="link link-contacts" href="./portfolio.html">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <address class="adress-section">
+      <ul class="list">
+        <li>
+          <a class="link contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a class="link contacts-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
+      </ul>
+    </address>
+
+    <!--Content navigation-->
+    <section>
+      <ul class="sections">
+        <li><button class="buton" type="button">All</button></li>
+        <li><button class="buton" type="button">Web Site</button></li>
+        <li><button class="buton" type="button">App</button></li>
+        <li><button class="buton" type="button">Design</button></li>
+        <li><button class="buton" type="button">Marketing</button></li>
+      </ul>
+    </section>
+  </header>
+  <main>
+    <!--Title section-->
+    <section>
+      <h1>Effective Solutions for Your Business</h1>
+      <button type="button">Order Service</button>
+    </section>
+    <!--Description section-->
+    <section>
+      <h2>not visible</h2>
+      <ul>
+        <li>
+          <h3>Strategy</h3>
+          <p>
+            Our goal is to identify the business problem to walk away with the
+            perfect and creative solution.
+          </p>
+        </li>
+        <li>
+          <h3>Punctuality</h3>
+          <p>
+            Bring the key message to the brand's audience for the best price
+            within the shortest possible time.
+          </p>
+        </li>
+        <li>
+          <h3>Diligence</h3>
+          <p>
+            Research and confirm brands that present the strongest digital
+            growth opportunities and minimize risk.
+          </p>
+        </li>
+        <li>
+          <h3>Technologies</h3>
+          <p>
+            Design practice focused on digital experiences. We bring forth a
+            deep passion for problem-solving.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <!--What we do section-->
+    <section>
+      <h2>What are we doing</h2>
+      <ul>
+        <li>
+          <img src="./pictures/img1.jpg" width="360" alt="Work on PC" href="./index.html" />
+        </li>
+        <li>
+          <img src="./pictures/img2.jpg" width="360" alt="Work on laptop" />
+        </li>
+        <li>
+          <img src="./pictures/img3.jpg" width="360" alt="Work on tablet" />
+        </li>
+      </ul>
+    </section>
+    <!--Our Team section-->
+    <section>
+      <h2>Our Team</h2>
+      <ul>
+        <li>
+          <img src="./pictures/Mark-Guerrero.jpg" width="264" alt="Product Designer" />
+          <h3>Mark Guerrero</h3>
+          <p>Product Designer</p>
+        </li>
+        <li>
+          <img src="./pictures/Tom-Ford.jpg" width="264" alt="Frontend Developer" />
+          <h3>Tom Ford</h3>
+          <p>Frontend Developer</p>
+        </li>
+        <li>
+          <img src="./pictures/Camila-Garcia.jpg" width="264" alt="Marketing" />
+          <h3>Camila Garcia</h3>
+          <p>Marketing</p>
+        </li>
+        <li>
+          <img src="./pictures/Daniel-Wilson.jpg" width="264" alt="UI Designer" />
+          <h3>Daniel Wilson</h3>
+          <p>UI Designer</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <!--Footer Section-->
+    <a href="./index.html">WebStudio</a>
+    <p>
+      Increase the flow of customers and sales for your business with digital
+      marketing & growth solutions.
+    </p>
+  </footer>
+</body>
+
 </html>

@@ -6,15 +6,16 @@
 }
 
 body {
-  font-family: var(--hero-font);
+  font-family: 'Roboto', sans-serif;
+  color: var(--content-color);
 }
 
 .logo {
-  font-family: raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800px;
-  font-size: 18 px;
-  line-height: 1.17;
-  letter-spacing: 0.03;
+  font-size: 18px;
+  line-height: 1.17px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-blue-color);
 }
@@ -25,7 +26,8 @@ body {
 }
 
 .link-studio {
-  color: var(--hero-color-navy) cursor: pointer;
+  color: var(--hero-color-navy);
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -33,7 +35,8 @@ body {
 }
 
 .link-portfolio {
-  color: var(--hero-color-navy) cursor: pointer;
+  color: var(--hero-color-navy);
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -41,24 +44,26 @@ body {
 }
 
 .link-contacts {
-  color: var(--hero-color-navy) cursor: pointer;
+  color: var(--hero-color-navy);
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.link-studio:hover {
-  color: #404bbf
-}
-
-.link-portfolio:hover {
-  color: #404bbf
-}
-
+.link-studio,
+.link-portfolio,
 .link-contacts:hover {
   color: #404bbf
 }
+
+.link-studio,
+.link-portfolio,
+.link-contacts:focus {
+  color: #404bbf
+}
+
 
 .logo-studio {
   color: var(--hero-color-navy)
@@ -88,6 +93,7 @@ body {
   /* 150% */
   letter-spacing: 0.02em
 }
+
 
 .contacts-mail:hover {
   color: #404bbf
