@@ -1,8 +1,9 @@
 :root {
-  --logo-blue-color: #4d5ae5;
+  --logo-button-blue-color: #4d5ae5;
   --hero-color-navy: #2e2f42;
-  --hero-font: robote, sans-serif;
+  --hero-font: Roboto, sans-serif;
   --content-color: #434455;
+  --focus-hover-color: #404bbf;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
   line-height: 1.17px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--logo-blue-color);
+  color: var(--logo-button-blue-color);
 }
 
 .link {
@@ -25,48 +26,12 @@ body {
   list-style: none;
 }
 
-.link-studio {
-  color: var(--hero-color-navy);
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.logo-studio-dark {
+  color: var(--content-color);
 }
 
-.link-portfolio {
-  color: var(--hero-color-navy);
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.link-contacts {
-  color: var(--hero-color-navy);
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.link-studio,
-.link-portfolio,
-.link-contacts:hover {
-  color: #404bbf
-}
-
-.link-studio,
-.link-portfolio,
-.link-contacts:focus {
-  color: #404bbf
-}
-
-
-.logo-studio {
-  color: var(--hero-color-navy)
+.logo-studio-white {
+  color: #f4f4f4fd;
 }
 
 .buton {
@@ -96,17 +61,124 @@ body {
 
 
 .contacts-mail:hover {
-  color: #404bbf
+  color: var(--focus-hover-color)
 }
 
 .contacts-mail:focus {
-  color: #404bbf
+  color: var(--focus-hover-color)
 }
 
 .contacts-tel:hover {
-  color: #404bbf
+  color: var(--focus-hover-color)
 }
 
 .contacts-tel:focus {
-  color: #404bbf
+  color: var(--focus-hover-color)
+}
+
+.list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--hero-color-navy);
+}
+
+.list-studio:hover {
+  color: var(--focus-hover-color)
+}
+
+.list-studio:focus {
+  color: var(--focus-hover-color)
+}
+
+.list-portfolio:hover {
+  color: var(--focus-hover-color)
+}
+
+.list-portfolio:focus {
+  color: var(--focus-hover-color)
+}
+
+.list-contacts:hover {
+  color: var(--focus-hover-color)
+}
+
+.list-contacts:focus {
+  color: var(--focus-hover-color)
+}
+
+.section-1 {
+  background-color: var(--hero-color-navy);
+}
+
+.sectiIion-1-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.order-button {
+  background-color: var(--logo-button-blue-color);
+  font-family: var(--hero-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  color: var(--focus-hover-color);
+}
+
+.order-button:focus {
+  background-color: var(--focus-hover-color);
+}
+
+.section-2-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--hero-color-navy);
+}
+
+.section-2-list-paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--content-color);
+}
+
+.section-3-title .section-4-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--hero-color-navy)
+}
+
+.section-4 {
+  background-color: #F4F4FD;
+}
+
+.list-title {
+  background-color: #ffffff;
+}
+
+.footer-section {
+  background-color: var(--content-color);
+}
+
+.footer-paragraf {
+  line-height: 1.5;
+  color: #F4F4FD;
+  letter-spacing: 0.02em;
+
 }
