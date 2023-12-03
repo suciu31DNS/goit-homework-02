@@ -14,12 +14,6 @@ body {
 }
 
 
-
-
-
-
-
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -61,7 +55,7 @@ body {
   background-color: var(--focus-hover-color);
 }
 
-.boton:focus {
+.buton:focus {
   color: var(--light-color);
   background-color: var(--focus-hover-color);
 }
@@ -110,12 +104,12 @@ body {
   color: var(--focus-hover-color)
 }
 
-
-.section-1 {
+/*Title Section*/
+.section {
   background-color: var(--hero-color-navy);
 }
 
-.section-1-title {
+.section-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -142,7 +136,17 @@ body {
   background-color: var(--focus-hover-color);
 }
 
-.section-2-list-title {
+/*Description section*/
+.section-description-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--light-color);
+}
+
+
+.section-description-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -150,14 +154,17 @@ body {
   color: var(--hero-color-navy);
 }
 
-.section-2-list-paragraf {
+.section-description-pharagraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--content-color);
 }
 
-.section-3-title {
+
+
+/*What we do section*/
+.section-we-do-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -166,7 +173,9 @@ body {
   color: var(--hero-color-navy)
 }
 
-.section-4-title {
+/*Our Team section*/
+
+.our-team-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -175,13 +184,16 @@ body {
   color: var(--hero-color-navy)
 }
 
-.section-4 {
+.section-our-team {
   background-color: #F4F4FD;
 }
 
 .list-title {
   background-color: var(--light-color);
 }
+
+
+
 
 .footer-section {
   background-color: var(--hero-color-navy);
@@ -193,8 +205,8 @@ body {
 }
 
 .footer-paragraf {
+  color: #f4f4f4fd;
   line-height: 1.5;
-  color: #F4F4FD;
   letter-spacing: 0.02em;
 
 }
@@ -207,9 +219,26 @@ body {
   color: var(--hero-color-navy);
 }
 
-.content-section-paragraf {
+.our-team-pharagraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--content-color)
+}
+
+.content-section-pharagraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--content-color)
+}
+
+.out-team-subtitle {
+  letter-spacing: 0.4px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
