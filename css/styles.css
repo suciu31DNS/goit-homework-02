@@ -30,7 +30,7 @@ body {
 }
 
 .logo-studio-white {
-  color: var(--white-color);
+  color: #f4f4f4fd;
 }
 
 
@@ -185,8 +185,8 @@ body {
   color: var(--hero-color-navy);
 }
 
-.section-our-team {
-  background-color: var(--white-color)
+.our-team-section {
+  background-color: var(--white-color);
 }
 
 .out-team-subtitle {
@@ -205,6 +205,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--content-color);
+}
+
+.list-content {
+  background-color: var(--light-color);
 }
 
 .list-title {
