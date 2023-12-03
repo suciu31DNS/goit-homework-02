@@ -31,7 +31,7 @@ body {
 }
 
 .logo-studio-white {
-  color: #f4f4f4fd;
+  color: #F4F4FD;
 }
 
 
@@ -245,8 +245,9 @@ body {
 
 
 .content-section-pharagraph {
+  color: var(--content-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--content-color);
+
 }
