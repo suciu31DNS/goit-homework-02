@@ -64,29 +64,38 @@ body {
 }
 
 .contacts-mail {
-  color: var(--content-color) font-size: 16px;
+  color: var(--content-color);
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  /* 150% */
   letter-spacing: 0.02em
 }
 
 .contacts-tel {
-  color: var(--content-color) font-size: 16px;
+  color: var(--content-color);
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 150% */
   letter-spacing: 0.02em
 }
 
+.hidden-title {
+  visibility: hidden;
+}
 
-.contacts-mail,
+.contacts-mail:hover {
+  color: var(--focus-hover-color)
+}
+
 .contacts-tel:hover {
   color: var(--focus-hover-color)
 }
 
-.contacts-mail,
+.contacts-mail:focus {
+  color: var(--focus-hover-color)
+}
+
 .contacts-tel:focus {
   color: var(--focus-hover-color)
 }
