@@ -26,11 +26,10 @@ body {
 .link {
   text-decoration: none;
   list-style: none;
-  color: var(--content-color);
 }
 
 .logo-studio-dark {
-  color: var(--content-color);
+  color: var(--hero-color-navy);
 }
 
 .logo-studio-white {
@@ -82,18 +81,12 @@ body {
 }
 
 
-.contacts-mail:hover {
-  color: var(--focus-hover-color)
-}
-
-.contacts-mail:focus {
-  color: var(--focus-hover-color)
-}
-
+.contacts-mail,
 .contacts-tel:hover {
   color: var(--focus-hover-color)
 }
 
+.contacts-mail,
 .contacts-tel:focus {
   color: var(--focus-hover-color)
 }
@@ -107,29 +100,16 @@ body {
   color: var(--hero-color-navy);
 }
 
-.list-studio:hover {
+
+.list-links:hover {
   color: var(--focus-hover-color)
 }
 
-.list-studio:focus {
+
+.list-links:focus {
   color: var(--focus-hover-color)
 }
 
-.list-portfolio:hover {
-  color: var(--focus-hover-color)
-}
-
-.list-portfolio:focus {
-  color: var(--focus-hover-color)
-}
-
-.list-contacts:hover {
-  color: var(--focus-hover-color)
-}
-
-.list-contacts:focus {
-  color: var(--focus-hover-color)
-}
 
 .section-1 {
   background-color: var(--hero-color-navy);
@@ -219,7 +199,7 @@ body {
 
 }
 
-content-section-title {
+.content-section-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
