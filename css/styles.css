@@ -30,7 +30,7 @@ body {
 }
 
 .logo-studio-white {
-  color: #F4F4FD;
+  color:var(--nu-color);
 }
 
 .link {
