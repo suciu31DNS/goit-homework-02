@@ -30,7 +30,7 @@ body {
 }
 
 .logo-studio-white {
-  color: var(--white-color)
+  color: var(--white-color);
 }
 
 
@@ -48,7 +48,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--logo-button-blue-color);
-  background-color: var(--white-color)
+  background-color: var(--white-color);
 }
 
 .buton:hover {
@@ -70,7 +70,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 
@@ -79,11 +79,11 @@ body {
 }
 
 .contacts:hover {
-  color: var(--focus-hover-color)
+  color: var(--focus-hover-color);
 }
 
 .contacts:focus {
-  color: var(--focus-hover-color)
+  color: var(--focus-hover-color);
 }
 
 .list {
@@ -97,12 +97,12 @@ body {
 
 
 .list-links:hover {
-  color: var(--focus-hover-color)
+  color: var(--focus-hover-color);
 }
 
 
 .list-links:focus {
-  color: var(--focus-hover-color)
+  color: var(--focus-hover-color);
 }
 
 /*Title Section*/
@@ -171,7 +171,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--hero-color-navy)
+  color: var(--hero-color-navy);
 }
 
 /*Our Team section*/
@@ -182,7 +182,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--hero-color-navy)
+  color: var(--hero-color-navy);
 }
 
 .section-our-team {
@@ -204,7 +204,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--content-color)
+  color: var(--content-color);
 }
 
 .list-title {
@@ -224,7 +224,8 @@ body {
 }
 
 .footer-paragraf {
-  color: var(--white-color) line-height: 1.5;
+  color: var(--white-color);
+  line-height: 1.5;
   letter-spacing: 0.02em;
 
 }
@@ -242,5 +243,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--content-color)
+  color: var(--content-color);
 }
